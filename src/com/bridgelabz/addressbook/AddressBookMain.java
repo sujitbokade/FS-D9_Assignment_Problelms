@@ -9,6 +9,10 @@ public class AddressBookMain {
 
         addressBook.addContact();
         System.out.print(addressBook.showInfo());
+        System.out.println();
+
+        addressBook.editContact();
+        System.out.print(addressBook.showInfo());
 
     }
 }
