@@ -14,5 +14,8 @@ public class AddressBookMain {
         addressBook.editContact();
         System.out.print(addressBook.showInfo());
 
+        addressBook.deleteContact();
+        System.out.print(addressBook.showInfo());
+
     }
 }
